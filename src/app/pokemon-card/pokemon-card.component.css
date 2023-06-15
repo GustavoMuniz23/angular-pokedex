@@ -1,7 +1,8 @@
 .pokemon-card{
         display: flex;
         flex-direction: column;
-        font-family: arial, sans-serif;
+        flex-wrap: wrap;
+        font-family: "Signika", arial, sans-serif;
         margin: 0 5px 50px;
         width: 215px;
 }
@@ -33,15 +34,13 @@
 
 .pokemon-card__type{
         border-radius: 10px;
-        float: left;
         font-size: 12px;
         line-height: 18px;
         margin: 0 10px;
         max-width: 110px;
         text-align: center;
-        text-transform: none;
+        text-transform: capitalize;
         width: 38.4375%;
-        background: yellow;
 }
 
 .bug{
